@@ -1,0 +1,29 @@
+{
+    "name": "veronicaio/use-validator",
+    "type": "library",
+    "description": "Try to use veronica validator",
+    "homepage" : "https://github.com/veronicaio/use-validator.git",
+    "keywords": ["veronica", "validator"],
+    "version" : "5.0.0",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/veronicaio/validator"
+        }
+    ],
+    "require": {
+        "php": ">7.3",
+        "veronicaio/validator" : "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Veronica\\UValidator\\" : "src/Veronica/UValidator/",
+            "Veronica\\UValidator\\Tests\\" : "tests/Veronica/UValidator/Tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
