@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">7.3",
-        "veronicaio/validator" : "*"
+        "veronicaio/validator" : "dev-main"
     },
     "require-dev": {
         "phpunit/phpunit": "^7"
